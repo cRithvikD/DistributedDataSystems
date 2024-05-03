@@ -5,7 +5,7 @@ The dataset selected was Crimes - 2001 to Present provided by the City of Chicag
 Our goal for this dataset was to give overviews of total crime over time and the different types of crimes that occur in Chicago. We wanted to identify how the number of reported crimes has fluctuated in Chicago over time, as well as identify the most frequent types of crimes. In order to accomplish this, we loaded the data into Google Cloud storage, used Airflow to load data into MongoDB, created MongoDB aggregation pipelines to distill relevant fields, stored these subsets of the data in new MongoDB collections, and ran SparkSQL queries to further analyze the curated subsets stored on a MongoDB Atlas cluster. 
 
 # Workflow Diagram:
-![Images](image1.png)
+![Images](image2.png)
 
 
 
