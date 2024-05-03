@@ -45,5 +45,6 @@ Over the span of these data, there are 36 distinct categories of reported crime.
 Using distributed data tools was crucial to our exploration of crime data in Chicago. Without them, it would have been very difficult and tedious to load and analyze 8 million records. The project wasn’t without its setbacks though. We experienced some limitations due to exhausting our Google Cloud credits and some difficulty with the size of data and Airflow. Given more time and resources, we would have liked to explore more nuanced details of crime in Chicago such as how certain types of crime have fluctuated over time and how geographic area relates to the types and counts of reported incidents as well. 
 
 # References
-1. dd
-2. Thanks to Jay Chung, Maricela Abarca and Solomon for being brilliant teammates!
+1. Data source: https://catalog.data.gov/dataset/crimes-2001-to-present
+2. Kaggle: https://www.kaggle.com/datasets/utkarshx27/crimes-2001-to-present
+3. Thanks to Jay Chung, Maricela Abarca and Solomon for being brilliant teammates!
