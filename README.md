@@ -5,19 +5,26 @@ The dataset selected was Crimes - 2001 to Present provided by the City of Chicag
 Our goal for this dataset was to give overviews of total crime over time and the different types of crimes that occur in Chicago. We wanted to identify how the number of reported crimes has fluctuated in Chicago over time, as well as identify the most frequent types of crimes. In order to accomplish this, we loaded the data into Google Cloud storage, used Airflow to load data into MongoDB, created MongoDB aggregation pipelines to distill relevant fields, stored these subsets of the data in new MongoDB collections, and ran SparkSQL queries to further analyze the curated subsets stored on a MongoDB Atlas cluster. 
 
 # Workflow Diagram:
-![image1](https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/6f8b398c-68f3-4871-960c-0a69698bf5a5)
+![image4](https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/f04d5d4b-9004-4f2d-8e88-56fbb1c79317)
 
 
 
 # Google cloud bucket containing our data:
+![image2](https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/1fa14084-5fa6-46f9-a79c-86bc0149f81b)
 
-Composer Environment where we specify the connection and code to Airflow:
+
+# Composer Environment where we specify the connection and code to Airflow:
+![image7](https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/c6275632-28ea-4a7d-abc0-b1f890e022a6)
+
 
 
 # Airflow UI:
+![image5](https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/a9c574bb-0949-4c88-8eca-3e85ecdbd89e)
+
 
 
 # MongoDB Atlas UI showing the data have been loaded successfully:
+![image1](https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/bd45cd39-60fa-4b81-be6e-b9fd57ee89ee)
 
 
 # Query Summaries
@@ -25,9 +32,13 @@ We took advantage of MongoDB aggregations for both of our goals. We grouped the 
 
 # Results
 Trend in total crime, 2001-2023
+<img width="684" alt="image3" src="https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/7704b501-f23d-476d-a4c1-ed6ffcd60255">
+
 Based on the 23 years that these data have been collected and reported, the total reported crime in Chicago has decreased from a maximum of 468,815 reported crimes in 2002 to 261,021 through 2023. The year with the lowest crime was 2021, with 209,069 crimes reported. This represents a decrease of about 44% in reported crimes from 2001 to 2021. 
 
 Crime types, 2001-2023
+<img width="869" alt="image6" src="https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/56260194-4439-4033-917b-a284fc46a628">
+
 
 Over the span of these data, there are 36 distinct categories of reported crime. The most reported crime is theft, with 1,690,886 incidents since 2001. The least reported is domestic violence, with just one reported incident since 2001. 
 # Takeaways
