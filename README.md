@@ -32,11 +32,13 @@ We took advantage of MongoDB aggregations for both of our goals. We grouped the 
 
 # Results
 Trend in total crime, 2001-2023
+
 <img width="684" alt="image3" src="https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/7704b501-f23d-476d-a4c1-ed6ffcd60255">
 
 Based on the 23 years that these data have been collected and reported, the total reported crime in Chicago has decreased from a maximum of 468,815 reported crimes in 2002 to 261,021 through 2023. The year with the lowest crime was 2021, with 209,069 crimes reported. This represents a decrease of about 44% in reported crimes from 2001 to 2021. 
 
 Crime types, 2001-2023
+
 <img width="869" alt="image6" src="https://github.com/cRithvikD/DistributedDataSystems/assets/41294960/56260194-4439-4033-917b-a284fc46a628">
 
 
